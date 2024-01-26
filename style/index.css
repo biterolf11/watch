@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "League Spartan";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: #F8F8F8;
+    max-height: 450px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header__img {
+    display: flex;
+
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.header__img_img {
+    height: 400px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_name {
+    font-weight: 300;
+    position: absolute;
+    color: #161515;
+    font-size: 18px;
+}
+
+.header_title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 300;
+
+    color: #272727;
+    font-size: 120px;
+}
+
+.header_desc {
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-weight: 300;
+    max-width: 450px;
+
+    color: #161515;
+    font-size: 22px;
+}
+
+.header__order_buy {
+    font-weight: 300;
+    background: #161515;
+    width: 128px;
+    height: 50px;
+
+    border: none;
+    text-align: center;
+
+    display: inline-block;
+
+    color: #FFF;
+    font-size: 19px;
+}
+
+.header__order_price {
+    margin-left: -4px;
+    margin-top: 0px;
+    padding-top: 16px;
+
+    font-weight: 300;
+    color: #272727;
+    background: #FFF;
+
+    width: 100px;
+    height: 50px;
+
+    border: none;
+
+    display: inline-block;
+
+    text-align: center;
+    font-size: 19px;
+}
+
+.pm {
+    flex-direction: column;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pm__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pm__title_subtitle {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.pm__title_maintitle {
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.watch1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch1__img {
+    display: flex;
+
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.watch1__img_img {
+    height: 300px;
+}
+
+.watch1__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.watch1__desc_title {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.watch1__desc_benefits {
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.watch2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch2__img {
+    display: flex;
+
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.watch2__img_img {
+    height: 300px;
+}
+
+.watch2__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.watch2__desc_title {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.watch2__desc_benefits {
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 120px;
+}
+
+.pm__product-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pm__product-desc_title {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.pm__product-desc_line {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.pm__product-desc_text {
+    max-width: 400px;
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
